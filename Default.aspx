@@ -36,10 +36,10 @@
             <tr>
                 <td class="auto-style3">User Name:</td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtUsername" runat="server" Width="170px"></asp:TextBox>
+                    <asp:TextBox ID="txtLoginUser" runat="server" Width="170px"></asp:TextBox>
                 </td>
                 <td class="auto-style5">
-                    <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ControlToValidate="txtUsername" ErrorMessage="User Name is required" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ControlToValidate="txtLoginUser" ErrorMessage="User Name is required" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -56,10 +56,10 @@
             <tr>
                 <td class="auto-style3">Password:</td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" Width="170px"></asp:TextBox>
+                    <asp:TextBox ID="txtLoginPassword" runat="server" TextMode="Password" Width="170px"></asp:TextBox>
                 </td>
                 <td class="auto-style5">
-                    <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ControlToValidate="txtPassword" ErrorMessage="Password is Required" ForeColor="Red"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ControlToValidate="txtLoginPassword" ErrorMessage="Password is Required" ForeColor="Red"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -91,7 +91,7 @@
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style4">
-                    <asp:Button ID="btnSend" runat="server" OnClick="btnSend_Click" Text="Submit" />&nbsp;
+                    <asp:Button ID="btnSend" runat="server" OnClick="btnSend_Click" Text="Submit" style="height: 26px" />&nbsp;
                     <asp:Button ID="btnReset" runat="server" CausesValidation="False" OnClick="btnReset_Click" Text="Reset" />
                 </td>
                 <td class="auto-style5">&nbsp;</td>
